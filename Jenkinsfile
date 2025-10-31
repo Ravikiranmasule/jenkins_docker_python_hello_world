@@ -30,7 +30,7 @@ pipeline {
             }
         }
     
-
+	}
     post {
         success {
             echo 'Python application Docker image built successfully.'
