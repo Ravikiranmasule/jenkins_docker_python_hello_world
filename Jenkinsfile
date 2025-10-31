@@ -29,7 +29,7 @@ pipeline {
                 sh "docker run --rm ${env.DOCKER_IMAGE}"
             }
         }
-    }
+    
 
     post {
         success {
